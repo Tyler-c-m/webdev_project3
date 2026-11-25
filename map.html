@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <!-- This should go into a CSS file -->
+  <!-- Your 3 added features should go there as well -->
+    <style>
+
+
+      #map {
+        width: 700px;
+        height: 500px;
+        background-color: #ccc;
+        margin: 30px auto;
+      }
+
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+        display: flex;
+      }
+
+      
+      ul li a {
+        display: block;
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      
+      ul li a:hover {
+        background-color: hsl(0, 1%, 72%);
+      }
+
+    </style>
+
+    
+
+  </head>
+
+  <body>
+
+
+    <nav id="nav">
+          
+      <ul>
+          
+        <li><a href="index.html">Sackboy Autopsy</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="page3.html">Future Career</a></li>
+        <li><a href="map.html">Google Maps API</a></li>
+          
+      </ul>
+        
+    </nav>
+
+
+    <h1>My First Google Map</h1>
+    <div id="map" style="width:100%;height:500px;"> </div>
+
+    <button id="questions"> Questions </button>
+
+    <script  src="js/newScript.js"></script>
+    
+    <script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap">
+    </script>
+  
+  </body>
+
+</html>

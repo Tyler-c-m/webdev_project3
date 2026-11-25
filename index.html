@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <title>Sackboy Autopsy</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 
     <style>
 
@@ -89,6 +90,47 @@
       }
     
     
+      /* Query 1: Mobile phones  */
+      @media screen and (min-width: 320px) {
+
+        body {
+          font-family: Roboto, serif; 
+        }
+        
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          background-color: #D4AF37;
+          display: flex;
+        }
+
+        ul li a:hover {
+        background-color: #A8892A;
+        }
+      }
+
+      /* Query 2: Tablets  */
+      @media screen and (min-width: 481px) {
+        body {
+          font-family: Roboto, serif; 
+        }
+        
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          background-color: #D4AF37;
+          display: flex;
+        }
+
+        ul li a:hover {
+        background-color: #A8892A;
+        }
+      }
+
+
+      
     </style>
   </head>
 
@@ -100,13 +142,14 @@
       
       <header>
         
-        <nav>
+        <nav id="nav">
           
           <ul>
           
             <li><a href="index.html">Sackboy Autopsy</a></li>
             <li><a href="resume.html">Resume</a></li>
             <li><a href="page3.html">Future Career</a></li>
+            <li><a href="map.html">Google Maps API</a></li>
           
           </ul>
         
